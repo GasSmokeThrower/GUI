@@ -82,11 +82,11 @@ TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_3.Position = UDim2.new(0.0240962133, 0, 0.642395735, 0)
 TextButton_3.Size = UDim2.new(0, 90, 0, 40)
 TextButton_3.Font = Enum.Font.Unknown
-TextButton_3.Text = "N/A"
+TextButton_3.Text = "I/Y"
 TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_3.TextSize = 25.000
 TextButton_3.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/GasSmokeThrower/N-A/main/NSLASHA",true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/edgeiy/infiniteyield/master/source",true))()
 end)
 
 TextLabel_3.Parent = Frame
