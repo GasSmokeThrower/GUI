@@ -58,10 +58,9 @@ TextButton.Size = UDim2.new(0, 90, 0, 40)
 TextButton.Font = Enum.Font.Unknown
 TextButton.Text = "AimBot"
 TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.TextScaled = true
 TextButton.TextSize = 15.000
 TextButton.TextWrapped = true
-TextButoon.MouseButton1Down:connect(function()
+TextButton.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/GasSmokeThrower/Aimbot/main/Aimbot",true))()
 end)
 
@@ -73,10 +72,9 @@ TextButton_2.Size = UDim2.new(0, 90, 0, 40)
 TextButton_2.Font = Enum.Font.Unknown
 TextButton_2.Text = "telekinesis"
 TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_2.TextScaled = true
 TextButton_2.TextSize = 10.000
 TextButton_2.TextWrapped = true
-TextButoon_2.MouseButton1Down:connect(function()
+TextButton_2.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/GasSmokeThrower/Telekinesis/main/Telekinesis",true))()
 end)
 
@@ -88,10 +86,9 @@ TextButton_3.Size = UDim2.new(0, 90, 0, 40)
 TextButton_3.Font = Enum.Font.Unknown
 TextButton_3.Text = "I/Y"
 TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_3.TextScaled = true
 TextButton_3.TextSize = 25.000
 TextButton_3.TextWrapped = true
-TextButoon_3.MouseButton1Down:connect(function()
+TextButton_3.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source",true))()
 end)
 
@@ -103,9 +100,8 @@ TextButton_4.Size = UDim2.new(0, 90, 0, 40)
 TextButton_4.Font = Enum.Font.Unknown
 TextButton_4.Text = "ATUAP"
 TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_4.TextScaled = true
-TextButton_4.TextSize = 25.000
+TextButton_4.TextSize = 15.000
 TextButton_4.TextWrapped = true
-TextButoon_4.MouseButton1Down:connect(function()
+TextButton_4.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/GasSmokeThrower/ATUAP/main/ATUAP",true))()
 end)
