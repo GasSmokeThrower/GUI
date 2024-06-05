@@ -10,7 +10,7 @@ local TextLabel_2 = Instance.new("TextLabel")
 local TextButton = Instance.new("TextButton")
 local TextButton_2 = Instance.new("TextButton")
 local TextButton_3 = Instance.new("TextButton")
-local TextLabel_3 = Instance.new("TextLabel")
+local TextButton_4 = Instance.new("TextButton")
 
 --Properties:
 
@@ -58,8 +58,10 @@ TextButton.Size = UDim2.new(0, 90, 0, 40)
 TextButton.Font = Enum.Font.Unknown
 TextButton.Text = "AimBot"
 TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextScaled = true
 TextButton.TextSize = 15.000
-TextButton.MouseButton1Down:connect(function()
+TextButton.TextWrapped = true
+TextButoon.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/GasSmokeThrower/Aimbot/main/Aimbot",true))()
 end)
 
@@ -71,8 +73,10 @@ TextButton_2.Size = UDim2.new(0, 90, 0, 40)
 TextButton_2.Font = Enum.Font.Unknown
 TextButton_2.Text = "telekinesis"
 TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextScaled = true
 TextButton_2.TextSize = 10.000
-TextButton_2.MouseButton1Down:connect(function()
+TextButton_2.TextWrapped = true
+TextButoon_2.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/GasSmokeThrower/Telekinesis/main/Telekinesis",true))()
 end)
 
@@ -84,18 +88,24 @@ TextButton_3.Size = UDim2.new(0, 90, 0, 40)
 TextButton_3.Font = Enum.Font.Unknown
 TextButton_3.Text = "I/Y"
 TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextScaled = true
 TextButton_3.TextSize = 25.000
-TextButton_3.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/edgeiy/infiniteyield/master/source",true))()
+TextButton_3.TextWrapped = true
+TextButoon_3.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source",true))()
 end)
 
-TextLabel_3.Parent = Frame
-TextLabel_3.BackgroundColor3 = Color3.fromRGB(128, 128, 128)
-TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_3.BorderSizePixel = 2
-TextLabel_3.Position = UDim2.new(0.448422253, 0, 0.168619752, 0)
-TextLabel_3.Size = UDim2.new(0, 260, 0, 169)
-TextLabel_3.Font = Enum.Font.Unknown
-TextLabel_3.Text = "Coming Soon!"
-TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_3.TextSize = 20.000
+TextButton_4.Parent = Frame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(128, 128, 128)
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.Position = UDim2.new(0.254905581, 0, 0.640825868, 0)
+TextButton_4.Size = UDim2.new(0, 90, 0, 40)
+TextButton_4.Font = Enum.Font.Unknown
+TextButton_4.Text = "ATUAP"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 25.000
+TextButton_4.TextWrapped = true
+TextButoon_4.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/GasSmokeThrower/ATUAP/main/ATUAP",true))()
+end)
