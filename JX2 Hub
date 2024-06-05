@@ -98,10 +98,10 @@ TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_4.Position = UDim2.new(0.254905581, 0, 0.640825868, 0)
 TextButton_4.Size = UDim2.new(0, 90, 0, 40)
 TextButton_4.Font = Enum.Font.Unknown
-TextButton_4.Text = "ATUAP"
+TextButton_4.Text = "TPUA"
 TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_4.TextSize = 15.000
 TextButton_4.TextWrapped = true
 TextButton_4.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/GasSmokeThrower/ATUAP/main/ATUAP",true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/GasSmokeThrower/TPUA/main/TPUA",true))()
 end)
